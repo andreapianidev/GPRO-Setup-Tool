@@ -53,7 +53,7 @@ The demo starts with a sample team and calculates the sample race plus **one tra
 - All GPRO tracks, on your own private instance, in English or Italian
 - Formulas checked against your recent races, so the numbers match your car
 - Your team saved, race history, and features adapted to the way you manage
-- Ready within two working days; one-time price, then a small yearly renewal for hosting
+- **250 € one-time**, then 50 € a year from the second year for hosting and updates; ready in 2 working days, regular invoice
 
 📲 **Write to me on WhatsApp: [+39 351 624 8936](https://wa.me/393516248936?text=Hi%20Andrea%2C%20I%20tried%20the%20GPRO%20Setup%20Tool%20demo%20and%20I%27d%20like%20information%20about%20my%20personalized%20version.)**. Tell me your GPRO group and what you would like the tool to do for you.
 
