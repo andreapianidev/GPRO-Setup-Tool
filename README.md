@@ -19,21 +19,34 @@ English and Italian · No sign-up · Works on phone and desktop
 
 ## 🏁 What the demo does
 
-Open the demo, pick the track of your next race, copy the numbers from your GPRO pages and get the setup to enter in the game.
+Open the demo, connect with the demo GPRO token (or type your own numbers) and get the setup to enter in the game.
 
-- **Setup for Q1, Q2 and race**: front wing, rear wing, engine, brakes, gear and suspension, from track, session temperature, dry or wet, driver skills and the level and wear of all 11 car parts.
-- **Fuel and pit stops**: stops, laps per stint, litres per stint and time lost for every compound, with the quickest option marked. Tyre supplier, staff and technical director included.
-- **Part wear**: the wear each part takes in the race at your clear-track risk, with a warning for parts that finish above 80% or 90%.
+- **Import from GPRO**: connect with a GPRO API token and driver, car, staff, weather and past races fill in by themselves. In the demo the connection is simulated on a sample team.
+- **Setup for Q1, Q2 and race**: front wing, rear wing, engine, brakes, gear and suspension, from track, temperature, dry or wet, driver skills and the level and wear of all 11 car parts, with a breakdown of why each number is what it is.
+- **Practice lap corrector**: enter the driver comments after each practice lap; the tool narrows the right value for every part and suggests the next lap.
+- **Fuel and pit stops**: stops, laps per stint, litres per stint and time lost for every compound, plus a fuel safety coach that shows what extra litres cost.
+- **Part wear**: wear for this race and a plan over the next races, with the race before which to replace each part.
+- **Season and calibration**: predicted against actual for fuel, stops and wear, and setup offsets learned from the races that worked for you.
 
 The demo starts with a sample team and calculates the sample race plus **one track of your choice**, so you can check it on your own next race.
 
-| Setup calculator | Fuel and pit stops |
+| Connect GPRO | Race weekend |
 |---|---|
-| [![Setup calculator](docs/screenshots/demo-setup.png)](https://gpro-setup-tool.vercel.app/#/app/setup) | [![Fuel and pit stops](docs/screenshots/demo-strategy.png)](https://gpro-setup-tool.vercel.app/#/app/strategy) |
+| [![Connect GPRO](docs/screenshots/demo-connect.png)](https://gpro-setup-tool.vercel.app/#/app/connect) | [![Race weekend](docs/screenshots/demo-dashboard.png)](https://gpro-setup-tool.vercel.app/#/app/weekend) |
 
-| Part wear | On your phone |
+| Setup calculator | Why these numbers |
 |---|---|
-| [![Part wear](docs/screenshots/demo-wear.png)](https://gpro-setup-tool.vercel.app/#/app/wear) | <img src="docs/screenshots/demo-phone.png" alt="Setup on a phone" width="260"> |
+| [![Setup calculator](docs/screenshots/demo-setup.png)](https://gpro-setup-tool.vercel.app/#/app/setup) | [![Why these numbers](docs/screenshots/demo-explainer.png)](https://gpro-setup-tool.vercel.app/#/app/setup) |
+
+| Practice lap corrector | Season and calibration |
+|---|---|
+| [![Practice lap corrector](docs/screenshots/demo-practice.png)](https://gpro-setup-tool.vercel.app/#/app/practice) | [![Season](docs/screenshots/demo-season.png)](https://gpro-setup-tool.vercel.app/#/app/season) |
+
+| Fuel and pit stops | Part wear |
+|---|---|
+| [![Fuel and pit stops](docs/screenshots/demo-strategy.png)](https://gpro-setup-tool.vercel.app/#/app/strategy) | [![Part wear](docs/screenshots/demo-wear.png)](https://gpro-setup-tool.vercel.app/#/app/wear) |
+
+<p align="center"><img src="docs/screenshots/demo-phone.png" alt="Setup on a phone" width="260"></p>
 
 ## 🔧 Your personalized version
 
