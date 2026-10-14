@@ -14,7 +14,7 @@
 
 ![GPRO Setup Tool, free version](docs/screenshots/dashboard.png)
 
-[💬 Get the updated version on WhatsApp](https://wa.me/393516248936?text=Hi%20Andrea%2C%20I%27m%20interested%20in%20the%20GPRO%20Setup%20Tool) • [📖 Documentation](docs/) • [🌐 andreapiani.com](https://www.andreapiani.com)
+[🚀 Live demo](https://gpro-setup-tool.vercel.app) • [💬 Get the updated version on WhatsApp](https://wa.me/393516248936?text=Hi%20Andrea%2C%20I%27m%20interested%20in%20the%20GPRO%20Setup%20Tool) • [📖 Documentation](docs/) • [🌐 andreapiani.com](https://www.andreapiani.com)
 
 </div>
 

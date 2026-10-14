@@ -4,6 +4,7 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import { AuthProvider, useAuth } from './hooks/useAuth';
 import Navigation from './components/Navigation';
+import { DemoBanner, DemoOnboarding } from './components/DemoNotice';
 import Landing from './pages/Landing';
 import Login from './pages/Login';
 import Register from './pages/Register';
@@ -40,9 +41,11 @@ const AppLayout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
       <Navigation />
+      <DemoOnboarding />
       {/* Main content with proper spacing for desktop sidebar and mobile bottom nav */}
       <main className="transition-all duration-300 lg:ml-64 pt-16 lg:pt-0 pb-20 lg:pb-6">
         <div className="p-4 lg:p-6">
+          <DemoBanner />
           {children}
         </div>
       </main>
