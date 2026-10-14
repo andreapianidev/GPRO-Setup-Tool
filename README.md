@@ -2,39 +2,59 @@
 
 # 🏎️ GPRO Setup Tool
 
-**Advanced setup optimization tool for Grand Prix Racing Online**
+**Setup, fuel and part wear calculator for Grand Prix Racing Online managers**
 
-[![React](https://img.shields.io/badge/React-18.3.1-blue.svg)](https://reactjs.org/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.8.3-blue.svg)](https://www.typescriptlang.org/)
-[![Vite](https://img.shields.io/badge/Vite-6.0.1-646CFF.svg)](https://vitejs.dev/)
-[![Supabase](https://img.shields.io/badge/Supabase-2.39.0-3ECF8E.svg)](https://supabase.com/)
-[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
+### [▶ Try the live demo: gpro-setup-tool.vercel.app](https://gpro-setup-tool.vercel.app)
 
-*A modern Progressive Web Application that automatically generates Excel files with optimized calculations for GPRO car setups*
+[![Live demo](https://img.shields.io/badge/Live%20demo-gpro--setup--tool.vercel.app-0f1d33?style=for-the-badge)](https://gpro-setup-tool.vercel.app)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-%2B39%20351%20624%208936-1d8a4e?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/393516248936?text=Hi%20Andrea%2C%20I%20tried%20the%20GPRO%20Setup%20Tool%20demo%20and%20I%27d%20like%20information%20about%20my%20personalized%20version.)
 
-![GPRO Setup Tool, free version](docs/screenshots/dashboard.png)
+[![GPRO Setup Tool demo](docs/screenshots/demo-landing.png)](https://gpro-setup-tool.vercel.app)
 
-[🚀 Live demo](https://gpro-setup-tool.vercel.app) • [💬 Get the updated version on WhatsApp](https://wa.me/393516248936?text=Hi%20Andrea%2C%20I%27m%20interested%20in%20the%20GPRO%20Setup%20Tool) • [📖 Documentation](docs/) • [🌐 andreapiani.com](https://www.andreapiani.com)
+English and Italian · No sign-up · Works on phone and desktop
 
 </div>
 
 ---
 
-## 🏁 Free version vs updated version
+## 🏁 What the demo does
 
-**This public repository is the free, older version of the GPRO Setup Tool.** It is an MVP: it runs on sample data, the setup calculations are placeholders and some features are missing. Use it to see the interface and how the tool works.
+Open the demo, pick the track of your next race, copy the numbers from your GPRO pages and get the setup to enter in the game.
 
-| Setup Calculator | Strategy Advisor |
+- **Setup for Q1, Q2 and race**: front wing, rear wing, engine, brakes, gear and suspension, from track, session temperature, dry or wet, driver skills and the level and wear of all 11 car parts.
+- **Fuel and pit stops**: stops, laps per stint, litres per stint and time lost for every compound, with the quickest option marked. Tyre supplier, staff and technical director included.
+- **Part wear**: the wear each part takes in the race at your clear-track risk, with a warning for parts that finish above 80% or 90%.
+
+The demo starts with a sample team and calculates the sample race plus **one track of your choice**, so you can check it on your own next race.
+
+| Setup calculator | Fuel and pit stops |
 |---|---|
-| ![Setup Calculator](docs/screenshots/calculator.png) | ![Strategy Advisor](docs/screenshots/strategy.png) |
+| [![Setup calculator](docs/screenshots/demo-setup.png)](https://gpro-setup-tool.vercel.app/#/app/setup) | [![Fuel and pit stops](docs/screenshots/demo-strategy.png)](https://gpro-setup-tool.vercel.app/#/app/strategy) |
 
-**The updated version is available on request.** I keep it up to date and customize it for every GPRO manager who wants it: setup calculated on your own driver, car and tracks, together with fuel and tyre strategy, plus the features you ask for. You get your own personal instance, hosted and maintained on my servers.
+| Part wear | On your phone |
+|---|---|
+| [![Part wear](docs/screenshots/demo-wear.png)](https://gpro-setup-tool.vercel.app/#/app/wear) | <img src="docs/screenshots/demo-phone.png" alt="Setup on a phone" width="260"> |
 
-📲 **Contact me on WhatsApp: [+39 351 624 8936](https://wa.me/393516248936?text=Hi%20Andrea%2C%20I%27m%20interested%20in%20the%20GPRO%20Setup%20Tool)**, tell me what you need and I will send you price and delivery time.
+## 🔧 Your personalized version
 
-Made by [Andrea Piani](https://www.andreapiani.com), for all GPRO enthusiasts.
+- All GPRO tracks, on your own private instance, in English or Italian
+- Formulas checked against your recent races, so the numbers match your car
+- Your team saved, race history, and features adapted to the way you manage
+- Ready within two working days; one-time price, then a small yearly renewal for hosting
+
+📲 **Write to me on WhatsApp: [+39 351 624 8936](https://wa.me/393516248936?text=Hi%20Andrea%2C%20I%20tried%20the%20GPRO%20Setup%20Tool%20demo%20and%20I%27d%20like%20information%20about%20my%20personalized%20version.)**. Tell me your GPRO group and what you would like the tool to do for you.
+
+Made by [Andrea Piani](https://www.andreapiani.com), for GPRO enthusiasts. Setup, strategy and wear formulas come from community research published in the open-source [GAPP](https://github.com/Whompratt/GAPP) project. Unofficial tool, not affiliated with Grand Prix Racing Online.
 
 ---
+
+## 📦 About the code in this repository
+
+**This repository holds the first, free version of the tool (MVP), not the code of the live demo.** It runs on sample data, its setup calculations are placeholders and some features are missing. The live demo and the personalized versions are a separate, newer product.
+
+| Old free version: dashboard | Old free version: calculator |
+|---|---|
+| ![Old dashboard](docs/screenshots/dashboard.png) | ![Old calculator](docs/screenshots/calculator.png) |
 
 ## ✨ Key Features
 
@@ -495,7 +515,7 @@ This project is licensed under **CC BY-NC 4.0** - see the [LICENSE](LICENSE) fil
 | [💬 **WhatsApp**](https://wa.me/393516248936) | Updated version, customization & support |
 | [📊 **GitHub Repository**](https://github.com/andreapianidev/GPRO-Setup-Tool) | Source code |
 | [🐛 **Report Issues**](https://github.com/andreapianidev/GPRO-Setup-Tool/issues) | Bug reports & feature requests |
-| [💬 **Discussions**](https://github.com/andreapianidev/GPRO-Setup-Tool/discussions) | Community discussions |
+| [💬 **WhatsApp**](https://wa.me/393516248936) | Questions and the personalized version |
 | [🌐 **Author Website**](https://www.andreapiani.com) | More projects & contact |
 
 </div>
