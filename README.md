@@ -12,11 +12,29 @@
 
 *A modern Progressive Web Application that automatically generates Excel files with optimized calculations for GPRO car setups*
 
-![GPRO Setup Tool Demo](https://www.andreapiani.com/GPROsetuptool.png)
+![GPRO Setup Tool, free version](docs/screenshots/dashboard.png)
 
-[🚀 Live Demo](https://gpro-setup-tool.vercel.app) • [📖 Documentation](docs/) • [🐛 Report Issues](https://github.com/your-username/gpro-setup-tool/issues)
+[💬 Get the updated version on WhatsApp](https://wa.me/393516248936?text=Hi%20Andrea%2C%20I%27m%20interested%20in%20the%20GPRO%20Setup%20Tool) • [📖 Documentation](docs/) • [🌐 andreapiani.com](https://www.andreapiani.com)
 
 </div>
+
+---
+
+## 🏁 Free version vs updated version
+
+**This public repository is the free, older version of the GPRO Setup Tool.** It is an MVP: it runs on sample data, the setup calculations are placeholders and some features are missing. Use it to see the interface and how the tool works.
+
+| Setup Calculator | Strategy Advisor |
+|---|---|
+| ![Setup Calculator](docs/screenshots/calculator.png) | ![Strategy Advisor](docs/screenshots/strategy.png) |
+
+**The updated version is available on request.** I keep it up to date and customize it for every GPRO manager who wants it: setup calculated on your own driver, car and tracks, together with fuel and tyre strategy, plus the features you ask for. You get your own personal instance, hosted and maintained on my servers.
+
+📲 **Contact me on WhatsApp: [+39 351 624 8936](https://wa.me/393516248936?text=Hi%20Andrea%2C%20I%27m%20interested%20in%20the%20GPRO%20Setup%20Tool)**, tell me what you need and I will send you price and delivery time.
+
+Made by [Andrea Piani](https://www.andreapiani.com), for all GPRO enthusiasts.
+
+---
 
 ## ✨ Key Features
 
@@ -249,7 +267,7 @@ console.log(`Strategy: ${analysis.riskMatrix.recommendation}`);
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/gpro-setup-tool.git
+git clone https://github.com/andreapianidev/GPRO-Setup-Tool.git
 cd gpro-setup-tool
 
 # Install dependencies
@@ -335,7 +353,7 @@ gpro-setup-tool/
 **We're looking for passionate GPRO managers and developers to join our community!**
 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
-[![Good First Issue](https://img.shields.io/badge/good%20first%20issue-welcome-purple.svg)](https://github.com/your-username/gpro-setup-tool/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
+[![Good First Issue](https://img.shields.io/badge/good%20first%20issue-welcome-purple.svg)](https://github.com/andreapianidev/GPRO-Setup-Tool/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
 
 </div>
 
@@ -356,7 +374,7 @@ gpro-setup-tool/
 ```bash
 # 1. Fork the repository on GitHub
 # 2. Clone your fork
-git clone https://github.com/your-username/gpro-setup-tool.git
+git clone https://github.com/andreapianidev/GPRO-Setup-Tool.git
 
 # 3. Create a feature branch
 git checkout -b feature/amazing-feature
@@ -466,7 +484,7 @@ This project is licensed under **CC BY-NC 4.0** - see the [LICENSE](LICENSE) fil
 - ✅ **Free for personal use** and non-commercial projects
 - ✅ **Attribution required** - please credit [Andrea Piani](https://www.andreapiani.com)
 - ❌ **Commercial use prohibited** without explicit permission
-- 📞 **Commercial licensing available** - contact [www.andreapiani.com](https://www.andreapiani.com)
+- 📞 **Commercial licensing and updated version available** - WhatsApp [+39 351 624 8936](https://wa.me/393516248936) or [www.andreapiani.com](https://www.andreapiani.com)
 
 ## 🔗 Quick Links
 
@@ -474,10 +492,10 @@ This project is licensed under **CC BY-NC 4.0** - see the [LICENSE](LICENSE) fil
 
 | Link | Description |
 |------|-------------|
-| [🚀 **Live Demo**](https://gpro-setup-tool.vercel.app) | Try the application |
-| [📊 **GitHub Repository**](https://github.com/your-username/gpro-setup-tool) | Source code |
-| [🐛 **Report Issues**](https://github.com/your-username/gpro-setup-tool/issues) | Bug reports & feature requests |
-| [💬 **Discussions**](https://github.com/your-username/gpro-setup-tool/discussions) | Community discussions |
+| [💬 **WhatsApp**](https://wa.me/393516248936) | Updated version, customization & support |
+| [📊 **GitHub Repository**](https://github.com/andreapianidev/GPRO-Setup-Tool) | Source code |
+| [🐛 **Report Issues**](https://github.com/andreapianidev/GPRO-Setup-Tool/issues) | Bug reports & feature requests |
+| [💬 **Discussions**](https://github.com/andreapianidev/GPRO-Setup-Tool/discussions) | Community discussions |
 | [🌐 **Author Website**](https://www.andreapiani.com) | More projects & contact |
 
 </div>
